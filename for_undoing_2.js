@@ -1,7 +1,9 @@
 function old (parameter){
-    if (parameter < 14) {
+    if (parameter < 10) {
 console.log("little")
-    } else {console.log("older")};
-}
+} else if (parameter < 14) {
+    console.log("baby")
+        } else {console.log("older")};
+    }
 
 old(55);
