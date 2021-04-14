@@ -1,9 +1,9 @@
 function old (parameter){
-    if (parameter < 10) {
-        console.log("little");
-    } else if (parameter < 14) {
-                console.log("baby");
-            } else {console.log("older");}
+    if (parameter < 3) {
+        console.log("little baby");
+    } else if (parameter < 50) {
+               console.log("adult");
+            } else {console.log("granny");}
     }
 
-old(7);
+old(25);
