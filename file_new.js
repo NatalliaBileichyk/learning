@@ -1,3 +1,4 @@
-function (name){
+function printName (name){
     console.log(name);
 }
+printName("Alesia");
